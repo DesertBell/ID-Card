@@ -1,0 +1,39 @@
+body {
+    background-color: slateblue;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Marko One"
+}
+
+#form {
+    text-align: center;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    float: left;
+ }
+ 
+ #idCard {
+    border: 5px solid black;
+    border-radius: 25px;
+    margin:auto;
+    height: 14em;
+    width: 25em;
+    background-color: antiquewhite; 
+}
+
+p {
+    padding-left: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#postFullName {
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    text-align: center;
+}

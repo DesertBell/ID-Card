@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Final Project</title>
+  <link href = "https://fonts.googleapis.com/css?family=Marko One" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Let's create an ID card!</h1>
+  <br>
+  <section>
+    <div id="form">
+      <form action = "" method = "">
+        <label>First Name:<br> <input type="text" id="firstName" name=""></label><br>
+        <label>Last Name: <br><input type="text" id="lastName" name=""></label><br>
+        <label>Age: <br><input type="number" id="age" name=""></label><br>
+        <label>Phone Number: <br><input type="number" id="phoneNumber" name=""></label><br>
+        <label>Address: <br><input type="text" id="address" name=""></label><br>
+      </form>
+      <br>
+      <button onclick = "idCard()">Get ID Card</button>
+    </div>
+    <br>
+    <div id="idCard">
+        <img src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
+        <br>
+        <p id="postFullName"></p>
+        <br>
+        <p id="postAge"></p>
+        <p id="postPhoneNumber"></p>
+        <p id="postAddress"></p>
+    </div>
+  </section>
+<script src = "script.js"></script>
+</body>
+</html>
